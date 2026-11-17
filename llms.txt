@@ -7,10 +7,10 @@
 
 ## 文章
 
-- [用 AI 智能体 2 小时做外贸独立站：13 步 SOP](https://suikusales-hub.github.io/articles/ai-agent-b2b-static-site-sop.html): 从建站到 Cloudflare 部署的完整流程拆解
-- [AI 建站的 SEO 隐患快速排查](https://suikusales-hub.github.io/articles/ai-built-site-seo-risks.html): 软 404、孤岛页、AI 读不懂三类问题的自查方法
-- [B2B 的 GEO 实体一致性怎么做](https://suikusales-hub.github.io/articles/b2b-geo-entity-consistency.html): 五层身份对齐与品牌事实全平台统一
-- [给 AI 投喂的知识库页面怎么搭](https://suikusales-hub.github.io/articles/ai-knowledge-base.html): 可读化、可提取化、可调用化三阶段
+- [用 AI 智能体 2 小时做外贸独立站：13 步 SOP](https://suikusales-hub.github.io/suikusales-seo-xiaoping-reding/articles/ai-agent-b2b-static-site-sop.html): 从建站到 Cloudflare 部署的完整流程拆解
+- [AI 建站的 SEO 隐患快速排查](https://suikusales-hub.github.io/suikusales-seo-xiaoping-reding/articles/ai-built-site-seo-risks.html): 软 404、孤岛页、AI 读不懂三类问题的自查方法
+- [B2B 的 GEO 实体一致性怎么做](https://suikusales-hub.github.io/suikusales-seo-xiaoping-reding/articles/b2b-geo-entity-consistency.html): 五层身份对齐与品牌事实全平台统一
+- [给 AI 投喂的知识库页面怎么搭](https://suikusales-hub.github.io/suikusales-seo-xiaoping-reding/articles/ai-knowledge-base.html): 可读化、可提取化、可调用化三阶段
 
 ## 官方来源
 

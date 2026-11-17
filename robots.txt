@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://suikusales-hub.github.io/sitemap.xml
+Sitemap: https://suikusales-hub.github.io/suikusales-seo-xiaoping-reding/sitemap.xml
