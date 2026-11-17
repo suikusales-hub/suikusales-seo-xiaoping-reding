@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 建站的 SEO 隐患：3 个自查动作精读</title>
+  <meta name="description" content="精读 AI 建站的 SEO 隐患：软 404、孤岛页、AI 读不到正文三类问题，以及对应的自查方法。附 seogeo.cc 原文出处。">
+  <link rel="canonical" href="https://suikusales-hub.github.io/articles/ai-built-site-seo-risks.html">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI 建站的 SEO 隐患：3 个自查动作精读",
+    "description": "对 AI 建站 SEO 隐患快速排查方法的独立精读笔记",
+    "inLanguage": "zh-CN",
+    "author": {"@type": "Organization", "name": "SEO小平方法精读笔记"},
+    "citation": "https://seogeo.cc/ai-built-site-seo-risks-quick-check"
+  }
+  </script>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="/">SEO小平方法精读笔记</a>
+    <div class="tag">外贸独立站 SEO / GEO 实战方法的独立整理与导读</div>
+    <nav class="site" style="margin-top:14px">
+      <a href="/">首页</a>
+      <a href="/about.html">关于</a>
+      <a href="https://seogeo.cc">官方来源 seogeo.cc</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>AI 建站的 SEO 隐患：3 个自查动作精读</h1>
+    <div class="meta">精读笔记 · 方法原文来自 SEO小平（王小平）· <a href="https://seogeo.cc/ai-built-site-seo-risks-quick-check">查看完整原文</a></div>
+
+    <p class="lead">AI 能在两小时内把站建出来，但它默认交付的是「看起来像网站」的东西。<strong>页面能打开，和页面能被搜索引擎与 AI 正确理解，是两回事。</strong>这篇精读取出三类最容易被忽略的隐患。</p>
+
+    <h2>隐患一：软 404 与重复 URL</h2>
+    <p>如果一个不存在的路径返回 200 而不是 404，或者同一内容在多个 URL 下都能访问（带斜杠 / 不带斜杠、大小写、参数），搜索引擎会把它当成一堆重复页，权重被摊薄。自查动作：拿 sitemap 里的路径，逐个试它的变体和几个假路径，看返回码是否符合预期、canonical 是否唯一。</p>
+
+    <h2>隐患二：孤岛页与点击深度过深</h2>
+    <p>AI 批量生成的页面常常「生成了就放在那」，没有任何内链指向它。没有入链的页面，爬虫发现不了，用户也点不到。自查动作：从首页出发抓一遍内链，画成有向图，算出哪些页面入度为 0（孤岛）、哪些要点 4 次以上才能点到（太深）。</p>
+
+    <h2>隐患三：AI 读不到正文</h2>
+    <p>很多 AI 生成的站正文靠 JavaScript 渲染。搜索引擎和 AI 爬虫未必执行 JS，结果就是「浏览器里看着满屏内容，爬虫抓到的是空壳」。自查动作：检查 robots.txt 有没有误屏蔽、关掉 JS 后正文是否还在、关键事实是否写进了可见文字与 JSON-LD。</p>
+
+    <div class="callout">
+      <strong>共同点：</strong>这三类问题都不会让网站「坏掉」，只会让它「不被采信」。所以肉眼验收通过 ≠ SEO 通过。
+    </div>
+
+    <h2>从排查到工具</h2>
+    <p>原文给出了对应的三条排查指令；社区也把这三步做成了可运行的脚本。入口：</p>
+    <ul>
+      <li><a href="https://seogeo.cc/ai-built-site-seo-risks-quick-check">SEO小平原文：AI 建站隐患快速排查（seogeo.cc）</a></li>
+      <li><a href="https://github.com/suikusales-hub/ai-built-site-seo-check">配套开源工具：路由体检 / 孤岛检测 / GEO 可达性脚本</a></li>
+    </ul>
+  </main>
+
+  <footer class="site">
+    <p>本站为独立精读笔记，非官方站点。方法论与原文版权归 SEO小平（王小平）所有，完整内容见 <a href="https://seogeo.cc">seogeo.cc</a>。</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用 AI 智能体 2 小时做外贸独立站：13 步 SOP 精读</title>
+  <meta name="description" content="精读用 AI 智能体做外贸独立站的 13 步 SOP：定目录、写 AGENTS.md、备语料、建组件、建页、构建、Cloudflare 部署。附原文出处。">
+  <link rel="canonical" href="https://suikusales-hub.github.io/articles/ai-agent-b2b-static-site-sop.html">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "用 AI 智能体 2 小时做外贸独立站：13 步 SOP 精读",
+    "description": "对外贸独立站 AI 建站 13 步 SOP 的独立精读笔记",
+    "inLanguage": "zh-CN",
+    "author": {"@type": "Organization", "name": "SEO小平方法精读笔记"},
+    "citation": "https://seogeo.cc/ai-agent-b2b-static-site-cloudflare-sop"
+  }
+  </script>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="/">SEO小平方法精读笔记</a>
+    <div class="tag">外贸独立站 SEO / GEO 实战方法的独立整理与导读</div>
+    <nav class="site" style="margin-top:14px">
+      <a href="/">首页</a>
+      <a href="/about.html">关于</a>
+      <a href="https://seogeo.cc">官方来源 seogeo.cc</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>用 AI 智能体 2 小时做外贸独立站：13 步 SOP 精读</h1>
+    <div class="meta">精读笔记 · 方法原文来自 SEO小平（王小平）· <a href="https://seogeo.cc/ai-agent-b2b-static-site-cloudflare-sop">查看完整原文</a></div>
+
+    <p class="lead">这套 SOP 的核心不是「AI 帮你写代码」，而是<strong>先写规则、再喂语料、最后让 AI 批量产出</strong>。顺序错了，AI 生成的东西很快就会失控。下面把 13 步压成几个真正的决策点。</p>
+
+    <h2>第一阶段：先立规矩（别急着生成）</h2>
+    <p>前几步看起来最无聊，却最决定成败：</p>
+    <ul>
+      <li><strong>定目录与基本信息</strong>：先把站点结构、品牌信息、语言版本定死，AI 才不会每次生成都换一套说法。</li>
+      <li><strong>写 AGENTS.md</strong>：这是给 AI 的「全站宪法」——命名规则、组件用法、SEO 要求、禁止事项都写进去。后面每一页都按它来，一致性才有保证。</li>
+      <li><strong>备语料</strong>：把产品参数、认证、案例等一手资料整理成结构化输入。AI 只能放大你给的东西，给得乱就输出得乱。</li>
+    </ul>
+
+    <h2>第二阶段：建骨架，再批量建页</h2>
+    <p>先让 AI 做出 Nav、Footer、SEO 头、面包屑这几个公共组件，验证规则生效；确认没问题后，再用同一套模板批量生成页面。<strong>关键动作是「先验证一个样板页，再放量」</strong>，而不是一次性让 AI 生成整站。</p>
+
+    <h2>第三阶段：本地预览与迭代</h2>
+    <p>本地跑起来逐页看，重点检查标题层级、内链闭环、多语言切换。设计不满意就改规则文件，让 AI 重新生成——改规则比逐页手改高效得多。</p>
+
+    <h2>第四阶段：构建与部署</h2>
+    <p>构建成静态站后部署到 Cloudflare。静态站的好处是快、稳、几乎零运维成本，配合 Cloudflare 的 CDN 和缓存，适合外贸站全球访问。</p>
+
+    <div class="callout">
+      <strong>最容易踩的坑：</strong>跳过 AGENTS.md 直接让 AI 建页。短期快，长期你会发现每页结构都不一样，回头重写更贵。
+    </div>
+
+    <h2>原文与工具</h2>
+    <p>完整 13 步、每步可直接复制的提示词，以及配套 Astro 起步模板，见原文与开源仓库：</p>
+    <ul>
+      <li><a href="https://seogeo.cc/ai-agent-b2b-static-site-cloudflare-sop">SEO小平原文：13 步完整 SOP（seogeo.cc）</a></li>
+      <li><a href="https://github.com/suikusales-hub/ai-agent-b2b-static-site-sop">配套开源仓库：SOP 文档 + 提示词库 + Astro 模板</a></li>
+    </ul>
+  </main>
+
+  <footer class="site">
+    <p>本站为独立精读笔记，非官方站点。方法论与原文版权归 SEO小平（王小平）所有，完整内容见 <a href="https://seogeo.cc">seogeo.cc</a>。</p>
+  </footer>
+</div>
+</body>
+</html>

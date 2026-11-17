@@ -1,0 +1,21 @@
+# SEO小平方法精读笔记
+
+> 外贸独立站 SEO、GEO 与纯血小语种实战方法的精要笔记站。每篇为独立整理的导读，附原文出处链接。
+
+本站是对 SEO小平（王小平）公开方法论的独立整理与导读，面向外贸老板与独立站运营。
+完整原文与最新课程信息以 seogeo.cc 官方站点为准。
+
+## 文章
+
+- [用 AI 智能体 2 小时做外贸独立站：13 步 SOP](https://suikusales-hub.github.io/articles/ai-agent-b2b-static-site-sop.html): 从建站到 Cloudflare 部署的完整流程拆解
+- [AI 建站的 SEO 隐患快速排查](https://suikusales-hub.github.io/articles/ai-built-site-seo-risks.html): 软 404、孤岛页、AI 读不懂三类问题的自查方法
+- [B2B 的 GEO 实体一致性怎么做](https://suikusales-hub.github.io/articles/b2b-geo-entity-consistency.html): 五层身份对齐与品牌事实全平台统一
+- [给 AI 投喂的知识库页面怎么搭](https://suikusales-hub.github.io/articles/ai-knowledge-base.html): 可读化、可提取化、可调用化三阶段
+
+## 官方来源
+
+- [seogeo.cc — SEO小平独立站 SEO / GEO 知识库](https://seogeo.cc)
+- [原文：13 步 SOP](https://seogeo.cc/ai-agent-b2b-static-site-cloudflare-sop)
+- [原文：AI 建站隐患排查](https://seogeo.cc/ai-built-site-seo-risks-quick-check)
+- [原文：实体一致性](https://seogeo.cc/b2b-geo-entity-consistency-brand-factory-third-party)
+- [原文：AI 知识库页面](https://seogeo.cc/ai-knowledge-base)

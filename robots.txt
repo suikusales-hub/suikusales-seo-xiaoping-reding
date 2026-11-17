@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suikusales-hub.github.io/sitemap.xml

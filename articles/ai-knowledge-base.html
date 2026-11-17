@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>给 AI 投喂的知识库页面，应该长什么样</title>
+  <meta name="description" content="精读 GEO 三阶段：可读化、可提取化、可调用化，如何把品牌事实写成 AI 愿意读、抓得准、答得出的知识库页面。附 seogeo.cc 原文出处。">
+  <link rel="canonical" href="https://suikusales-hub.github.io/articles/ai-knowledge-base.html">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "给 AI 投喂的知识库页面，应该长什么样",
+    "description": "对 GEO 三阶段与 AI 知识库页面方法的独立精读笔记",
+    "inLanguage": "zh-CN",
+    "author": {"@type": "Organization", "name": "SEO小平方法精读笔记"},
+    "citation": "https://seogeo.cc/ai-knowledge-base"
+  }
+  </script>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="/">SEO小平方法精读笔记</a>
+    <div class="tag">外贸独立站 SEO / GEO 实战方法的独立整理与导读</div>
+    <nav class="site" style="margin-top:14px">
+      <a href="/">首页</a>
+      <a href="/about.html">关于</a>
+      <a href="https://seogeo.cc">官方来源 seogeo.cc</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>给 AI 投喂的知识库页面，应该长什么样</h1>
+    <div class="meta">精读笔记 · 方法原文来自 SEO小平（王小平）· <a href="https://seogeo.cc/ai-knowledge-base">查看完整原文</a></div>
+
+    <p class="lead">这一篇讲的是 GEO 的最终形态：<strong>不是让 AI 读到你的文章，而是让它把你的页面当成「标准答案库」直接引用。</strong>原文把这件事拆成三个阶段。</p>
+
+    <h2>阶段一：可读化 —— 先让爬虫抓得到</h2>
+    <p>对爬虫和模型友好：清晰的 H1/H2、扁平结构、死链和 canonical 干净、内链面包屑完整。这一步本质还是传统 SEO——AI 要引用你，前提是先抓到你、信任你。</p>
+
+    <h2>阶段二：可提取化 —— 降低抽取成本</h2>
+    <ul>
+      <li><strong>Answer-First</strong>：结论前置，答案第一句就给结果，不要铺垫；</li>
+      <li><strong>参数表格化</strong>：定价、规格用表格，模型抽取成本最低；</li>
+      <li><strong>FAQ 成块</strong>：问句 + 答案成对出现，导出 FAQ JSON-LD；</li>
+      <li><strong>实体词锚定</strong>：关键事实用稳定、一致的专名表述。</li>
+    </ul>
+
+    <h2>阶段三：可调用化 —— 进入答案合成</h2>
+    <p>让 ChatGPT、Perplexity、Google AI Overviews 在合成答案时优先采信你。做法是：属性页、对比页做深，品牌事实页稳定更新，让 AI 每次想要这个领域的答案时，都能从你这拿到一致的口径。</p>
+
+    <table>
+      <tr><th>阶段</th><th>目标</th><th>典型动作</th></tr>
+      <tr><td>可读化</td><td>先被抓取与理解</td><td>技术体检、扁平架构、标题层级、内链闭环</td></tr>
+      <tr><td>可提取化</td><td>降低模型抽取成本</td><td>结论前置、参数表、FAQ 块、实体词、JSON-LD</td></tr>
+      <tr><td>可调用化</td><td>进入答案合成</td><td>属性 / 对比页做深、品牌事实页、稳定更新</td></tr>
+    </table>
+
+    <div class="callout">
+      <strong>核心判断：</strong>SEO 仍是 GEO 的基础。绕开「被抓到、被信任」直接谈「被 AI 引用」，是跳步。
+    </div>
+
+    <h2>原文与工具</h2>
+    <ul>
+      <li><a href="https://seogeo.cc/ai-knowledge-base">SEO小平原文：AI 知识库页面（seogeo.cc）</a></li>
+      <li><a href="https://github.com/suikusales-hub/ai-knowledge-base-builder">配套开源工具：事实表 → 知识库页 + llms.txt + JSON-LD</a></li>
+    </ul>
+  </main>
+
+  <footer class="site">
+    <p>本站为独立精读笔记，非官方站点。方法论与原文版权归 SEO小平（王小平）所有，完整内容见 <a href="https://seogeo.cc">seogeo.cc</a>。</p>
+  </footer>
+</div>
+</body>
+</html>
